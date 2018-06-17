@@ -1,4 +1,4 @@
-package com.chitchat.controller;
+package com.pataricza.chitchat.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.chitchat.model.ChatMessage;
-import com.chitchat.model.ChatUser;
+import com.pataricza.chitchat.model.ChatMessage;
+import com.pataricza.chitchat.model.ChatUser;
 
 @Controller
 public class ChatController {

@@ -1,4 +1,4 @@
-package com.chitchat;
+package com.pataricza.chitchat;
 
 
 import org.springframework.boot.SpringApplication;

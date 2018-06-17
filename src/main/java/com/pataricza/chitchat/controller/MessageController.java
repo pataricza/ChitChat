@@ -1,4 +1,4 @@
-package com.chitchat.controller;
+package com.pataricza.chitchat.controller;
 
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
@@ -6,7 +6,7 @@ import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
 
-import com.chitchat.model.ChatMessage;
+import com.pataricza.chitchat.model.ChatMessage;
 
 @Controller
 public class MessageController {

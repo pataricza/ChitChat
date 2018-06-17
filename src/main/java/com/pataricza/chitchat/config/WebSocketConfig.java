@@ -1,4 +1,4 @@
-package com.chitchat.config;
+package com.pataricza.chitchat.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

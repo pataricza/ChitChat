@@ -1,4 +1,4 @@
-package com.chitchat.model;
+package com.pataricza.chitchat.model;
 
 import java.util.ArrayList;
 
