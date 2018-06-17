@@ -1,7 +1,5 @@
 package com.chitchat.model;
 
-import java.util.ArrayList;
-
 public class ChatMessage {
 
 	private String message;

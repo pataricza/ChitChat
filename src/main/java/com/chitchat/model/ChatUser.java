@@ -20,5 +20,6 @@ public class ChatUser {
 	
 	public void addMessage(ChatMessage message) {
 		messages.add(message);
+		
 	}
 }

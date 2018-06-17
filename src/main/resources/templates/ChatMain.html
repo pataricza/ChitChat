@@ -4,6 +4,11 @@
     <title>ChitChat</title>
     <link rel="stylesheet" th:href="@{/style.css}" />
     <meta charset="utf-8" />
+     <script>
+     function refresh() {
+    	 location.reload();
+    	}
+	</script> 
 </head>
 <body>
 <h1>ChitChat</h1>
@@ -12,7 +17,7 @@
   </ul>
   <form action="#" th:action="@{/message}" th:object="${chatMessage}" method="post">
       <p>Message: <input type="text" th:field="*{message}" /></p>
-      <p><input type="submit" value="Send" /></p>
+      <p><input type="submit" value="Send" onclick="refresh();"/></p>
   </form>
 </body>
 </html>

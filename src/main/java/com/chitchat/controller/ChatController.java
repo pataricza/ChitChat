@@ -1,6 +1,5 @@
 package com.chitchat.controller;
 
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,5 +26,11 @@ public class ChatController {
 	public String message(@ModelAttribute ChatMessage chatMessage) {
 		chatUser.addMessage(chatMessage);
 		return"redirect:/chat";
+	}
+	
+	@GetMapping("/test")
+	public String chatTest() {
+		ChatMessage chatMessage = new ChatMessage();
+		return "ChatTest";
 	}
 }
